@@ -105,7 +105,7 @@ bin/db to_readme
 
 ## Results
 
-:information_source:  Updated on **2020-04-08** :information_source:
+:information_source:  Updated on **2020-04-09** :information_source:
 
 > Benchmarking with [wrk](https://github.com/ioquatix/wrk)
    + Threads : 8
@@ -114,42 +114,42 @@ bin/db to_readme
 
 :information_source: Sorted by max `req/s` on concurrency **64** :information_source:
 
-|    | Language | Framework | Speed (64) | Speed (256) | Speed (512) | Speed (1024) |  Speed (2048) |
-|----|----------|-----------|-----------:|------------:|------------:|-------------:|--------------:|
-| 1 | crystal (0.33)| [lucky](https://luckyframework.org) (0.19) | 66 992 | 66 531 | 66 596 | 68 549 | 68 815 |
-| 2 | crystal (0.33)| [grip](https://github.com/grip-framework/grip) (0.28) | 62 100 | 60 188 | 60 809 | 59 555 | 61 093 |
-| 3 | go (1.14)| [gorilla-mux](https://www.gorillatoolkit.org/pkg/mux) (1.7) | 58 010 | 59 381 | 60 096 | 59 889 | 60 702 |
-| 4 | go (1.14)| [rte](https://github.com/jwilner/rte) (0.0) | 48 558 | 43 234 | 42 187 | 40 853 | 41 426 |
-| 5 | crystal (0.33)| [kemal](https://kemalcr.com) (0.26) | 46 450 | 41 434 | 41 506 | 39 390 | 42 704 |
-| 6 | crystal (0.33)| [toro](https://github.com/soveran/toro) (0.4) | 45 883 | 44 032 | 43 171 | 42 035 | 41 685 |
-| 7 | crystal (0.33)| [orion](https://github.com/obsidian/orion) (2.3) | 45 630 | 44 872 | 45 200 | 45 727 | 42 473 |
-| 8 | crystal (0.33)| [onyx](https://onyxframework.org) (0.5) | 45 362 | 41 502 | 42 215 | 41 117 | 40 140 |
-| 9 | go (1.14)| [kami](https://github.com/guregu/kami) (2.2) | 40 609 | 34 400 | 33 853 | 33 899 | 34 459 |
-| 10 | go (1.14)| [chi](https://github.com/go-chi/chi) (4.1) | 39 569 | 31 807 | 31 322 | 31 141 | 31 142 |
-| 11 | go (1.14)| [violetear](https://violetear.org) (7.0) | 39 484 | 30 069 | 28 186 | 27 309 | 27 017 |
-| 12 | crystal (0.33)| [athena](https://github.com/athena-framework/athena) (0.8) | 38 433 | 40 654 | 37 999 | 37 166 | 37 465 |
-| 13 | go (1.14)| [gorouter](https://github.com/vardius/gorouter/wiki) (4.4) | 37 329 | 33 892 | 34 555 | 34 410 | 34 034 |
-| 14 | crystal (0.33)| [ricr](https://ricr-web.github.io/ricr) (0.1) | 37 136 | 31 555 | 31 834 | 30 785 | 30 540 |
-| 15 | go (1.14)| [goroute](https://goroute.github.io) (0.0) | 36 811 | 29 478 | 28 337 | 29 267 | 28 238 |
-| 16 | go (1.14)| [gf](https://goframe.org) (1.12) | 36 461 | 30 465 | 29 246 | 28 071 | 27 941 |
-| 17 | crystal (0.33)| [router.cr](https://github.com/tbrand/router.cr) (0.2) | 36 328 | 30 569 | 29 422 | 28 207 | 27 514 |
-| 18 | go (1.14)| [fasthttprouter](https://pkg.go.dev/github.com/buaazp/fasthttprouter) (0.1) | 34 130 | 30 660 | 30 767 | 31 622 | 31 110 |
-| 19 | go (1.14)| [httprouter](https://pkg.go.dev/github.com/julienschmidt/httprouter) (1.3) | 32 678 | 31 220 | 30 815 | 29 230 | 29 582 |
-| 20 | go (1.14)| [router](https://pkg.go.dev/github.com/fasthttp/router) (1.0) | 32 509 | 28 796 | 28 216 | 27 705 | 28 204 |
-| 21 | go (1.14)| [aero](https://github.com/aerogo/aero) (1.3) | 32 194 | 27 940 | 27 871 | 27 274 | 27 271 |
-| 22 | go (1.14)| [fasthttp](https://pkg.go.dev/github.com/valyala/fasthttp) (1.9) | 31 460 | 28 399 | 28 420 | 28 250 | 28 554 |
-| 23 | go (1.14)| [fiber](https://fiber.wiki) (1.8) | 31 317 | 28 658 | 29 180 | 29 865 | 30 469 |
-| 24 | crystal (0.33)| [spider-gazelle](https://spider-gazelle.net) (2.3) | 30 808 | 29 158 | 29 677 | 29 933 | 29 632 |
-| 25 | go (1.14)| [beego](https://beego.me) (1.12) | 30 431 | 27 153 | 26 715 | 25 760 | 23 678 |
-| 26 | go (1.14)| [gin](https://gin-gonic.com) (1.6) | 30 055 | 26 055 | 25 777 | 24 873 | 24 156 |
-| 27 | go (1.14)| [webgo](https://github.com/bnkamalesh/webgo) (3.0) | 29 947 | 24 768 | 23 471 | 22 251 | 22 477 |
-| 28 | go (1.14)| [atreugo](https://github.com/savsgio/atreugo/blob/master/docs/README.md) (11.0) | 29 742 | 25 763 | 25 915 | 26 186 | 26 395 |
-| 29 | go (1.14)| [mars](https://github.com/roblillack/mars) (1.0) | 29 683 | 28 544 | 28 384 | 27 356 | 28 247 |
-| 30 | go (1.14)| [echo](https://echo.labstack.com) (4.1) | 28 694 | 25 005 | 23 979 | 22 892 | 23 567 |
-| 31 | go (1.14)| [air](https://github.com/aofei/air) (0.15) | 27 899 | 25 630 | 25 843 | 25 213 | 25 481 |
-| 32 | go (1.14)| [gorouter-fasthttp](https://github.com/vardius/gorouter/wiki) (4.4) | 25 563 | 24 200 | 24 920 | 24 366 | 23 523 |
-| 33 | go (1.14)| [gramework](https://github.com/gramework/gramework) (1.7) | 24 550 | 26 876 | 27 085 | 27 579 | 27 291 |
-| 34 | crystal (0.33)| [amber](https://amberframework.org) (0.33) | 19 584 | 18 614 | 17 802 | 17 000 | 16 657 |
+|    | Language | Framework | Speed (16) | Speed (32) | Speed (64) | Speed (128) |  Speed (256) | Speed (512) |
+|----|----------|-----------|-----------:|-----------:|-----------:|------------:|-------------:|------------:|
+| 1 | crystal (0.34)| [amber](https://amberframework.org) (0.33) | 67 051 | 81 810 | 85 362 | 86 082 | 85 312 | 85 559 |
+| 2 | go (1.14)| [httprouter](https://pkg.go.dev/github.com/julienschmidt/httprouter) (1.3) | 40 288 | 60 616 | 72 104 | 73 864 | 74 840 | 74 017 |
+| 3 | go (1.14)| [violetear](https://violetear.org) (7.0) | 43 562 | 62 586 | 69 896 | 68 920 | 67 703 | 66 759 |
+| 4 | crystal (0.34)| [router.cr](https://github.com/tbrand/router.cr) (0.2) | 59 684 | 66 706 | 69 692 | 66 826 | 64 740 | 64 295 |
+| 5 | go (1.14)| [fasthttp](https://pkg.go.dev/github.com/valyala/fasthttp) (1.9) | 39 490 | 58 009 | 69 173 | 75 890 | 75 167 | 71 451 |
+| 6 | go (1.14)| [gin](https://gin-gonic.com) (1.6) | 44 388 | 62 737 | 68 649 | 67 182 | 66 733 | 66 449 |
+| 7 | go (1.14)| [webgo](https://github.com/bnkamalesh/webgo) (3.0) | 54 346 | 64 684 | 65 675 | 65 886 | 66 066 | 64 581 |
+| 8 | go (1.14)| [chi](https://github.com/go-chi/chi) (4.1) | 42 879 | 59 385 | 64 346 | 64 118 | 63 409 | 60 942 |
+| 9 | crystal (0.34)| [spider-gazelle](https://spider-gazelle.net) (2.3) | 39 111 | 56 415 | 61 292 | 61 555 | 60 281 | 62 207 |
+| 10 | crystal (0.34)| [toro](https://github.com/soveran/toro) (0.4) | 60 401 | 63 023 | 58 485 | 54 183 | 48 323 | 46 605 |
+| 11 | crystal (0.34)| [grip](https://github.com/grip-framework/grip) (0.28) | 50 106 | 55 775 | 57 920 | 56 028 | 54 282 | 52 893 |
+| 12 | go (1.14)| [echo](https://echo.labstack.com) (4.1) | 40 547 | 52 505 | 55 152 | 51 922 | 49 868 | 48 157 |
+| 13 | go (1.14)| [mars](https://github.com/roblillack/mars) (1.0) | 40 830 | 51 593 | 55 152 | 52 090 | 50 755 | 49 160 |
+| 14 | crystal (0.34)| [ricr](https://ricr-web.github.io/ricr) (0.1) | 38 203 | 52 763 | 53 983 | 48 755 | 47 482 | 47 233 |
+| 15 | go (1.14)| [air](https://github.com/aofei/air) (0.15) | 38 870 | 49 788 | 53 700 | 54 916 | 55 749 | 52 289 |
+| 16 | crystal (0.34)| [lucky](https://luckyframework.org) (0.20) | 32 641 | 47 301 | 53 625 | 51 650 | 53 381 | 51 214 |
+| 17 | go (1.14)| [atreugo](https://github.com/savsgio/atreugo/blob/master/docs/README.md) (11.0) | 42 138 | 51 247 | 52 820 | 48 418 | 45 843 | 44 991 |
+| 18 | go (1.14)| [gorilla-mux](https://www.gorillatoolkit.org/pkg/mux) (1.7) | 43 500 | 52 965 | 51 689 | 47 673 | 45 154 | 43 358 |
+| 19 | go (1.14)| [kami](https://github.com/guregu/kami) (2.2) | 39 025 | 51 793 | 51 553 | 46 840 | 42 756 | 40 629 |
+| 20 | go (1.14)| [gf](https://goframe.org) (1.12) | 44 782 | 51 037 | 50 917 | 49 730 | 47 523 | 46 689 |
+| 21 | go (1.14)| [beego](https://beego.me) (1.12) | 39 979 | 49 155 | 48 758 | 43 551 | 39 958 | 38 653 |
+| 22 | go (1.14)| [rte](https://github.com/jwilner/rte) (0.0) | 51 304 | 53 571 | 47 833 | 42 923 | 36 568 | 34 904 |
+| 23 | crystal (0.34)| [kemal](https://kemalcr.com) (0.26) | 36 737 | 46 852 | 47 075 | 43 721 | 43 560 | 43 481 |
+| 24 | go (1.14)| [fiber](https://fiber.wiki) (1.8) | 39 700 | 45 789 | 44 642 | 40 018 | 36 221 | 34 825 |
+| 25 | go (1.14)| [aero](https://github.com/aerogo/aero) (1.3) | 33 907 | 43 200 | 42 873 | 38 861 | 37 676 | 36 683 |
+| 26 | crystal (0.34)| [orion](https://github.com/obsidian/orion) (2.3) | 33 429 | 41 897 | 40 146 | 35 286 | 36 147 | 34 238 |
+| 27 | go (1.14)| [goroute](https://goroute.github.io) (0.0) | 34 858 | 40 822 | 39 894 | 35 210 | 34 722 | 34 188 |
+| 28 | go (1.14)| [gramework](https://github.com/gramework/gramework) (1.7) | 30 058 | 33 043 | 39 126 | 43 944 | 45 002 | 44 780 |
+| 29 | go (1.14)| [router](https://pkg.go.dev/github.com/fasthttp/router) (1.0) | 35 482 | 39 753 | 36 055 | 46 022 | 38 159 | 42 537 |
+| 30 | go (1.14)| [gorouter](https://github.com/vardius/gorouter/wiki) (4.4) | 29 295 | 34 321 | 34 694 | 34 222 | 32 415 | 32 155 |
+| 31 | crystal (0.34)| [athena](https://github.com/athena-framework/athena) (0.8) | 23 793 | 31 336 | 34 205 | 31 267 | 29 571 | 30 195 |
+| 32 | go (1.14)| [fasthttprouter](https://pkg.go.dev/github.com/buaazp/fasthttprouter) (0.1) | 32 595 | 35 554 | 33 819 | 29 121 | 27 795 | 27 753 |
+| 33 | crystal (0.34)| [onyx](https://onyxframework.org) (0.5) | 29 364 | 35 122 | 32 110 | 28 169 | 26 918 | 25 734 |
+| 34 | go (1.14)| [gorouter-fasthttp](https://github.com/vardius/gorouter/wiki) (4.4) | 21 253 | 26 541 | 30 497 | 34 207 | 33 873 | 33 880 |
 
 ## How to contribute ?
 
