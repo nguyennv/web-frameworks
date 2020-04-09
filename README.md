@@ -158,10 +158,11 @@ bin/db to_readme
 | 40 | ruby (2.7)| [camping](https://github.com/camping/camping) (2.1) | 12 500 | 12 824 | 13 029 | 12 848 | 12 922 | 12 874 |
 | 41 | ruby (2.7)| [roda](https://roda.jeremyevans.net) (3.3) | 10 827 | 11 965 | 12 002 | 12 646 | 11 881 | 12 749 |
 | 42 | ruby (2.7)| [rack-app](https://rack-app.com) (7.6) | 10 188 | 10 223 | 11 223 | 10 631 | 10 821 | 10 774 |
-| 43 | ruby (2.7)| [flame](https://github.com/AlexWayfer/flame) (4.18) | 7 519 | 7 844 | 8 025 | 7 888 | 8 005 | 7 800 |
-| 44 | ruby (2.7)| [hanami](https://hanamirb.org) (1.3) | 7 552 | 7 579 | 7 586 | 7 434 | 7 486 | 7 371 |
-| 45 | ruby (2.7)| [sinatra](https://sinatrarb.com) (2.0) | 7 311 | 7 445 | 7 369 | 7 553 | 7 547 | 7 668 |
-| 46 | ruby (2.7)| [grape](https://ruby-grape.org) (1.3) | 6 429 | 6 818 | 6 830 | 6 943 | 6 783 | 6 946 |
+| 43 | ruby (2.7)| [rails](https://rubyonrails.org) (6.0) | 8 094 | 7 707 | 8 064 | 8 127 | 7 944 | 8 105 |
+| 44 | ruby (2.7)| [flame](https://github.com/AlexWayfer/flame) (4.18) | 7 519 | 7 844 | 8 025 | 7 888 | 8 005 | 7 800 |
+| 45 | ruby (2.7)| [hanami](https://hanamirb.org) (1.3) | 7 552 | 7 579 | 7 586 | 7 434 | 7 486 | 7 371 |
+| 46 | ruby (2.7)| [sinatra](https://sinatrarb.com) (2.0) | 7 311 | 7 445 | 7 369 | 7 553 | 7 547 | 7 668 |
+| 47 | ruby (2.7)| [grape](https://ruby-grape.org) (1.3) | 6 429 | 6 818 | 6 830 | 6 943 | 6 783 | 6 946 |
 
 ## How to contribute ?
 
