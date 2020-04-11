@@ -105,7 +105,7 @@ bin/db to_readme
 
 ## Results
 
-:information_source:  Updated on **2020-04-10** :information_source:
+:information_source:  Updated on **2020-04-11** :information_source:
 
 > Benchmarking with [wrk](https://github.com/ioquatix/wrk)
    + Threads : 8
@@ -159,30 +159,31 @@ bin/db to_readme
 | 41 | go (1.14)| [fasthttprouter](https://pkg.go.dev/github.com/buaazp/fasthttprouter) (0.1) | 32 595 | 35 554 | 33 819 | 29 121 | 27 795 | 27 753 |
 | 42 | python (3.8)| [clastic](https://github.com/mahmoud/clastic) (19.9) | 23 186 | 28 564 | 33 690 | 37 564 | 37 218 | 36 718 |
 | 43 | crystal (0.34)| [onyx](https://onyxframework.org) (0.5) | 29 364 | 35 122 | 32 110 | 28 169 | 26 918 | 25 734 |
-| 44 | python (3.8)| [fastapi](https://fastapi.tiangolo.com) (0.54) | 23 908 | 26 528 | 30 642 | 29 253 | 28 939 | 27 423 |
-| 45 | go (1.14)| [gorouter-fasthttp](https://github.com/vardius/gorouter/wiki) (4.4) | 21 253 | 26 541 | 30 497 | 34 207 | 33 873 | 33 880 |
-| 46 | python (3.8)| [aiohttp](https://aiohttp.readthedocs.io) (3.6) | 17 219 | 23 573 | 28 178 | 28 981 | 27 459 | 28 191 |
-| 47 | python (3.8)| [sanic](https://github.com/huge-success/sanic) (19.12) | 19 299 | 24 800 | 26 792 | 25 433 | 23 061 | 22 525 |
-| 48 | python (3.8)| [blacksheep](https://github.com/RobertoPrevato/BlackSheep) (0.2) | 21 878 | 25 897 | 25 746 | 23 742 | 21 597 | 20 012 |
-| 49 | python (3.8)| [responder](https://python-responder.org) (2.0) | 18 393 | 22 429 | 23 920 | 24 319 | 24 080 | 23 951 |
-| 50 | ruby (2.7)| [hanami-api](https://hanamirb.org) (0.1) | 20 184 | 22 172 | 23 201 | 23 404 | 23 198 | 22 790 |
-| 51 | python (3.8)| [tornado](https://tornadoweb.org) (6.0) | 16 634 | 20 929 | 21 493 | 23 639 | 24 433 | 24 567 |
-| 52 | python (3.8)| [bottle](https://bottlepy.org) (0.12) | 20 486 | 20 572 | 21 091 | 27 258 | 26 657 | 25 577 |
-| 53 | python (3.8)| [emmett](https://github.com/emmett-framework/emmett) (2.0.0b2) | 14 777 | 19 225 | 20 521 | 18 967 | 16 635 | 16 633 |
-| 54 | ruby (2.7)| [syro](https://github.com/soveran/syro) (3.2) | 15 848 | 16 374 | 17 540 | 16 951 | 17 979 | 17 197 |
-| 55 | ruby (2.7)| [rack-routing](https://github.com/georgeu2000/rack-routing) (0.0) | 15 298 | 15 958 | 16 854 | 16 390 | 16 478 | 16 194 |
-| 56 | ruby (2.7)| [cuba](https://cuba.is) (3.9) | 13 889 | 14 979 | 15 513 | 15 240 | 15 546 | 15 194 |
-| 57 | python (3.8)| [quart](https://pgjones.gitlab.io/quart) (0.11) | 9 978 | 13 302 | 15 033 | 16 291 | 17 001 | 16 344 |
-| 58 | ruby (2.7)| [camping](https://github.com/camping/camping) (2.1) | 12 500 | 12 824 | 13 029 | 12 848 | 12 922 | 12 874 |
-| 59 | ruby (2.7)| [roda](https://roda.jeremyevans.net) (3.3) | 10 827 | 11 965 | 12 002 | 12 646 | 11 881 | 12 749 |
-| 60 | ruby (2.7)| [rack-app](https://rack-app.com) (7.6) | 10 188 | 10 223 | 11 223 | 10 631 | 10 821 | 10 774 |
-| 61 | python (3.8)| [cherrypy](https://github.com/cherrypy/cherrypy) (18.5) | 5 131 | 7 687 | 8 685 | 9 196 | 10 454 | 10 640 |
-| 62 | ruby (2.7)| [rails](https://rubyonrails.org) (6.0) | 8 094 | 7 707 | 8 064 | 8 127 | 7 944 | 8 105 |
-| 63 | ruby (2.7)| [flame](https://github.com/AlexWayfer/flame) (4.18) | 7 519 | 7 844 | 8 025 | 7 888 | 8 005 | 7 800 |
-| 64 | ruby (2.7)| [hanami](https://hanamirb.org) (1.3) | 7 552 | 7 579 | 7 586 | 7 434 | 7 486 | 7 371 |
-| 65 | ruby (2.7)| [sinatra](https://sinatrarb.com) (2.0) | 7 311 | 7 445 | 7 369 | 7 553 | 7 547 | 7 668 |
-| 66 | ruby (2.7)| [grape](https://ruby-grape.org) (1.3) | 6 429 | 6 818 | 6 830 | 6 943 | 6 783 | 6 946 |
-| 67 | python (3.8)| [django](https://djangoproject.com) (3.0) | 116 | 159 | 200 | 210 | 203 | 200 |
+| 44 | python (3.8)| [molten](https://moltenframework.com) (1.0) | 20 081 | 24 727 | 31 497 | 29 515 | 30 574 | 29 577 |
+| 45 | python (3.8)| [fastapi](https://fastapi.tiangolo.com) (0.54) | 23 908 | 26 528 | 30 642 | 29 253 | 28 939 | 27 423 |
+| 46 | go (1.14)| [gorouter-fasthttp](https://github.com/vardius/gorouter/wiki) (4.4) | 21 253 | 26 541 | 30 497 | 34 207 | 33 873 | 33 880 |
+| 47 | python (3.8)| [aiohttp](https://aiohttp.readthedocs.io) (3.6) | 17 219 | 23 573 | 28 178 | 28 981 | 27 459 | 28 191 |
+| 48 | python (3.8)| [sanic](https://github.com/huge-success/sanic) (19.12) | 19 299 | 24 800 | 26 792 | 25 433 | 23 061 | 22 525 |
+| 49 | python (3.8)| [blacksheep](https://github.com/RobertoPrevato/BlackSheep) (0.2) | 21 878 | 25 897 | 25 746 | 23 742 | 21 597 | 20 012 |
+| 50 | python (3.8)| [responder](https://python-responder.org) (2.0) | 18 393 | 22 429 | 23 920 | 24 319 | 24 080 | 23 951 |
+| 51 | ruby (2.7)| [hanami-api](https://hanamirb.org) (0.1) | 20 184 | 22 172 | 23 201 | 23 404 | 23 198 | 22 790 |
+| 52 | python (3.8)| [tornado](https://tornadoweb.org) (6.0) | 16 634 | 20 929 | 21 493 | 23 639 | 24 433 | 24 567 |
+| 53 | python (3.8)| [bottle](https://bottlepy.org) (0.12) | 20 486 | 20 572 | 21 091 | 27 258 | 26 657 | 25 577 |
+| 54 | python (3.8)| [emmett](https://github.com/emmett-framework/emmett) (2.0.0b2) | 14 777 | 19 225 | 20 521 | 18 967 | 16 635 | 16 633 |
+| 55 | ruby (2.7)| [syro](https://github.com/soveran/syro) (3.2) | 15 848 | 16 374 | 17 540 | 16 951 | 17 979 | 17 197 |
+| 56 | ruby (2.7)| [rack-routing](https://github.com/georgeu2000/rack-routing) (0.0) | 15 298 | 15 958 | 16 854 | 16 390 | 16 478 | 16 194 |
+| 57 | ruby (2.7)| [cuba](https://cuba.is) (3.9) | 13 889 | 14 979 | 15 513 | 15 240 | 15 546 | 15 194 |
+| 58 | python (3.8)| [quart](https://pgjones.gitlab.io/quart) (0.11) | 9 978 | 13 302 | 15 033 | 16 291 | 17 001 | 16 344 |
+| 59 | ruby (2.7)| [camping](https://github.com/camping/camping) (2.1) | 12 500 | 12 824 | 13 029 | 12 848 | 12 922 | 12 874 |
+| 60 | ruby (2.7)| [roda](https://roda.jeremyevans.net) (3.3) | 10 827 | 11 965 | 12 002 | 12 646 | 11 881 | 12 749 |
+| 61 | ruby (2.7)| [rack-app](https://rack-app.com) (7.6) | 10 188 | 10 223 | 11 223 | 10 631 | 10 821 | 10 774 |
+| 62 | python (3.8)| [cherrypy](https://github.com/cherrypy/cherrypy) (18.5) | 5 131 | 7 687 | 8 685 | 9 196 | 10 454 | 10 640 |
+| 63 | ruby (2.7)| [rails](https://rubyonrails.org) (6.0) | 8 094 | 7 707 | 8 064 | 8 127 | 7 944 | 8 105 |
+| 64 | ruby (2.7)| [flame](https://github.com/AlexWayfer/flame) (4.18) | 7 519 | 7 844 | 8 025 | 7 888 | 8 005 | 7 800 |
+| 65 | ruby (2.7)| [hanami](https://hanamirb.org) (1.3) | 7 552 | 7 579 | 7 586 | 7 434 | 7 486 | 7 371 |
+| 66 | ruby (2.7)| [sinatra](https://sinatrarb.com) (2.0) | 7 311 | 7 445 | 7 369 | 7 553 | 7 547 | 7 668 |
+| 67 | ruby (2.7)| [grape](https://ruby-grape.org) (1.3) | 6 429 | 6 818 | 6 830 | 6 943 | 6 783 | 6 946 |
+| 68 | python (3.8)| [django](https://djangoproject.com) (3.0) | 116 | 159 | 200 | 210 | 203 | 200 |
 
 ## How to contribute ?
 
